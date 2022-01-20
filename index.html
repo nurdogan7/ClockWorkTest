@@ -51,7 +51,7 @@
         <!-- Title Section-->
         <section class="uk-section uk-padding-remove-horizontal" style="padding: 60px;">
             <div class="uk-container uk-padding-remove">
-                <div class="uk-width-2-3 uk-margin-auto uk-text-center">
+                <div class="uk-width-2-3@m uk-margin-auto uk-text-center">
                     <h4 class="uk-h4 uk-margin-remove" style="padding-bottom: 8px;"><b>KIDS</b></h4>
                     <p class="uk-margin-remove">Çocuklara unutamayacakları bir tatil yaşatmak için her ayrıntı düşünülerek tasarlanan Zeynep Hotel Spiky Kids Club’ün eğitimli ekibi, onlara doyasıya eğlenmenin keyfini yaşatıyor.</p>
                 </div>
@@ -62,8 +62,8 @@
             <div class="uk-container">
                 <div class="uk-width-5-6@m uk-margin-auto">
                     <div class="uk-grid-medium uk-flex-middle" uk-grid>
-                        <div class="uk-width-3-5">
-                            <div class="uk-width-5-6">
+                        <div class="uk-width-3-5@m">
+                            <div class="uk-width-5-6@m">
                                 <div class="uk-flex uk-flex-center uk-margin-small-bottom">
                                     <img src="./assets/images/logo2.png" alt="top-image">
                                 </div>
@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                         </div>
-                            <div class="uk-width-2-5">
+                            <div class="uk-width-2-5@m">
                                  <img data-src="./assets/images/image.png" class="uk-width-1-1" uk-img>
                             </div>
                         </div>
@@ -127,7 +127,92 @@
             </div>
     </div>
        </div>
-    </section> 
+    </section>
+     <!-- Slider Section-->
+     <seciton class="uk-section uk-padding-remove-top">
+        <div class="uk-container">
+            <div class="uk-margin-auto uk-text-center">
+                <div class="uk-grid-medium" uk-grid>
+                    <div class="uk-width-2-1">
+                        <div class="uk-width-1-1@m">
+                            <div class="uk-text-large centerHeader imagesPadding">
+                                Resimler
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-container">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+                <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                    <li>
+                        <img src="assets/images/sld1.jpg" alt="1" class="uk-child-width-1-1" uk-image>
+                        <div class="uk-position-center uk-panel"><h1>1</h1></div>
+                    </li>
+                    <li>
+                        <img src="assets/images/sld2.jpg" alt="2" class="uk-child-width-1-1" uk-image>
+                        <div class="uk-position-center uk-panel"><h1>2</h1></div>
+                    </li>
+                    <li>
+                        <img src="assets/images/sld3.png" alt="3" class="uk-child-width-1-1" uk-image>
+                        <div class="uk-position-center uk-panel"><h1>3</h1></div>
+                    </li>
+                    <li>
+                        <img src="assets/images/sld4.jpg" alt="4" class="uk-child-width-1-1" uk-image>
+                        <div class="uk-position-center uk-panel"><h1>4</h1></div>
+                    </li>
+                    <li>
+                        <img src="assets/images/sld5.jpg" alt="5" class="uk-child-width-1-1" uk-image>
+                        <div class="uk-position-center uk-panel"><h1>5</h1></div>
+                    </li>
+                    <li>
+                        <img src="assets/images/sld6.jpg" alt="6" class="uk-child-width-1-1" uk-image>
+                        <div class="uk-position-center uk-panel"><h1>6</h1></div>
+                    </li>
+                    <li>
+                        <img src="assets/images/sld7.jpg" alt="7" class="uk-child-width-1-1" uk-image>
+                        <div class="uk-position-center uk-panel"><h1>7</h1></div>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+            
+            </div>
+        </div>
+    </seciton>
+    <!-- Slideshow Section-->
+    <section class="uk-section">
+        <div class="uk-container">
+            <section class="uk-section">
+                <div class="uk-container">
+                    <div class="uk-h3">SlideShow</div>
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+        
+                        <ul class="uk-slideshow-items">
+                            <li>
+                                <img data-src="assets/images/sld1.jpg" alt="1" class="uk-width-1-1" uk-img uk-cover >
+                            </li>
+                            <li>
+                                <img data-src="assets/images/sld2.jpg" alt="2" class="uk-width-1-1" uk-img uk-cover>
+                            </li>
+                            <li>
+                                <img data-src="assets/images/sld3.png" alt="3" class="uk-width-1-1" uk-img uk-cover>
+                            </li>
+                        </ul>
+                    
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                    
+                    </div>
+                   
+                </div>
+            </section>
+            </div>
+        </div>
+    </section>
     </main>
     <footer></footer>
     <script src="assets/uikit/dist/js/uikit.min.js"></script>
