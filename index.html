@@ -11,30 +11,37 @@
     <header>
         <nav class="uk-navbar-container" uk-navbar>
             <div class="uk-navbar-left">
-                <a class="uk-navbar-toggle" href="#">
-                    <span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+                <a class="uk-navbar-item" href="#">
+                    <span uk-navbar-item-icon></span> <span class="uk-margin-small-left">Menu</span>
                 </a>
-                <a class="uk-navbar-toggle" href="#">
+                <a class="uk-navbar-item uk-visible@m" href="#">
                     <span class="uk-margin-small-left">TR</span><span uk-icon="icon: chevron-down"></span>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="#">TR</a></li>
+                            <li><a href="#">ENG</a></li>
+                        </ul>
+                    </div>   
                 </a>
-                <div class="uk-navbar-dropdown">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="#">TR</a></li>
-                        <li><a href="#">ENG</a></li>
-                    </ul>
-                </div>      
-
-
             </div>
             <div class="uk-navbar-center">
                 <img src="./assets/images/logo.png" alt="center"/>
             </div>
             <div class="uk-navbar-right">
-                <a class="uk-navbar-toggle" href="#">
-                    <span class="uk-margin-small-left"><a class="uk-button uk-button-default" href="#">REZERVASYON</a></span>
+                <a class="uk-navbar-item uk-visible@m" href="#">
+                    <a class="uk-button uk-button-default  uk-visible@m" href="#">REZERVASYON</a>
                 </a>
-                <a class="uk-navbar-toggle" href="tel:+904446338">
+                <a class="uk-navbar-item uk-visible@m" href="tel:+904446338">
                     <span uk-icon="icon: receiver"></span><span class="uk-margin-small-right">+90 444 63 38</span>
+                </a>
+                <a class="uk-navbar-item uk-hidden@m" href="#">
+                    <span class="uk-margin-small-left">TR</span><span uk-icon="icon: chevron-down"></span>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="#">TR</a></li>
+                            <li><a href="#">ENG</a></li>
+                        </ul>
+                    </div>   
                 </a>
             </div>
         </nav>
