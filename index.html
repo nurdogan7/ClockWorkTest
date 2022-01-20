@@ -191,17 +191,19 @@
                     <div class="uk-h3">SlideShow</div>
                     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
         
-                        <ul class="uk-slideshow-items">
-                            <li>
-                                <img data-src="assets/images/sld1.jpg" alt="1" class="uk-width-1-1" uk-img uk-cover >
-                            </li>
-                            <li>
-                                <img data-src="assets/images/sld2.jpg" alt="2" class="uk-width-1-1" uk-img uk-cover>
-                            </li>
-                            <li>
-                                <img data-src="assets/images/sld3.png" alt="3" class="uk-width-1-1" uk-img uk-cover>
-                            </li>
-                        </ul>
+                        <div uk-slideshow="animation:pull; autoplay: true; autoplay-interval:2000;" class="uk-position-relative uk-visible-toggle">
+                            <ul class="uk-slideshow-items">
+                                <li>
+                                    <img src="assets/images/sld1.jpg" alt="1" class="uk-width-1-1" uk-img uk-cover >
+                                </li>
+                                <li>
+                                    <img src="assets/images/sld2.jpg" alt="2" class="uk-width-1-1" uk-img uk-cover>
+                                </li>
+                                <li>
+                                    <img src="assets/images/sld3.png" alt="3" class="uk-width-1-1" uk-img uk-cover>
+                                </li>
+                            </ul>
+                        </div>
                     
                         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
                         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
