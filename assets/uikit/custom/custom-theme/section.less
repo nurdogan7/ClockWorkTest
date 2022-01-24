@@ -55,4 +55,39 @@
 // Miscellaneous
 // ========================================================================
 
-.hook-section-misc() {}
+.hook-section-misc() {
+    .numeric-dotnav{
+        counter-reset: slider-count;
+      }
+      
+      .numeric-dotnav li {
+        cursor: pointer;
+        position: relative;
+      }
+      
+      .numeric-dotnav li:before{
+          counter-increment: slider-count;
+          content: counter(slider-count);
+          display: block;
+          position: absolute;
+          width: 28px;
+          text-align: center;
+          font-size: 14px;
+          height: 24px;
+      }
+      .numeric-dotnav li a{
+        width: 28px;
+        height: 24px;
+        border-radius: 2px;
+      }
+      
+      .numeric-dotnav li.uk-active a{
+        background-color: #242424;
+        
+      }
+      
+      .numeric-dotnav li.uk-active::before{
+        color: white;
+      }
+      
+}
