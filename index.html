@@ -88,7 +88,7 @@
 
     </section class= "uk-section ">
     <section>
-       <div class="uk-flex uk-flex-center uk-section-primary">
+       <div class="uk-flex uk-flex-center uk-section-primary uk-section-small">
         <h4><b>Çocuklar İçin Etkinliklerimiz</b></h4>
     </div> 
     </section>
@@ -141,8 +141,8 @@
                 <div class="uk-grid-medium" uk-grid>
                     <div class="uk-width-2-1">
                         <div class="uk-width-1-1@m">
-                            <div class="uk-text-large centerHeader imagesPadding uk-padding-large-bottom">
-                                Resimler
+                            <div class="uk-text-large uk-text-center centerHeader uk-padding-large-top" style= "padding: 30px;">
+                                <h3 class="uk-padding-large-bottom">Resimler</h3>
                             </div>
                         </div>
                     </div>
@@ -338,15 +338,16 @@
                 <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
             </div>  
     </section>
+    <!-- Offcanvas Section-->
     <section class="uk-section uk-section-primary">
-        <div class="uk-container">
-            <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-overlay">Open</button>
-
+        <div class="uk-container uk-margin-auto uk-text-center">
+        <div class="uk-grid-medium" uk-grid>
+           <div class="uk-width-1-1@m">
             <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
                 <div class="uk-offcanvas-bar">
             
                     <button class="uk-offcanvas-close" type="button" uk-close></button>            
-                    <h3>Title</h3>           
+                    <h3 class="uk-text-muted centerHeader uk-text-large">Title</h3>           
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             
                 </div>
@@ -362,11 +363,106 @@
 
              </div>
                 </div>
+
+           </div>
+
+        </div>
+        </div>
     </section>
+    <!-- Lightbox Section-->
     <section class="uk-section uk-section-secondary">
-        <div class="uk-container">
+        <div class="uk-container uk-margin-auto uk-text-center">
             <div uk-lightbox>
                 <a class="uk-button uk-button-default" href="assets/images/sld2.jpg" data-caption="Caption">Open Lightbox</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- Modal Section-->
+    <section class="uk-section uk-section-primary">
+        <div class="uk-container uk-margin-auto uk-text-center">
+            <p uk-margin>
+                <a class="uk-button uk-button-default" href="#modal-group-1" uk-toggle>Open The Story</a>
+            </p>
+            
+            <div id="modal-group-1" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">Story 1</h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                        <a href="#modal-group-2" class="uk-button uk-button-primary" uk-toggle>Next</a>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div id="modal-group-2" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">Story 2</h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                        <a href="#modal-group-1" class="uk-button uk-button-primary" uk-toggle>Previous</a>
+                        <a href="#modal-group-3" class="uk-button uk-button-primary" uk-toggle>Next</a>
+                    </div>
+                </div>
+            </div>
+            <div id="modal-group-3" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">Story 3</h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                        <a href="#modal-group-2" class="uk-button uk-button-primary" uk-toggle>Previous</a>
+                        <a href="#modal-group-4" class="uk-button uk-button-primary" uk-toggle>Next</a>
+                    </div>
+                </div>
+            </div> <div id="modal-group-4" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">Story 4</h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                        <a href="#modal-group-3" class="uk-button uk-button-primary" uk-toggle>Previous</a>
+                        <a href="#modal-group-5" class="uk-button uk-button-primary" uk-toggle>Next</a>
+                    </div>
+                </div>
+            </div> <div id="modal-group-5" uk-modal>
+                <div class="uk-modal-dialog">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">Story 5</h2>
+                    </div>
+                    <div class="uk-modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="uk-modal-footer uk-text-right">
+                        <button class="uk-button uk-button-default uk-modal-close" type="button">Cancel</button>
+                        <a href="#modal-group-4" class="uk-button uk-button-primary" uk-toggle>Previous</a>
+                        <a href="#modal-group-1" class="uk-button uk-button-primary" uk-toggle>Return Modal 1</a>
+                    </div>
+                </div>
             </div>
         </div>
 
