@@ -12,6 +12,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+      <!--Navbar Section-->
+      <section>
         <nav class="uk-navbar-container" uk-navbar>
             <div class="uk-navbar-left">
                 <a class="uk-navbar-item" href="#">
@@ -48,11 +50,12 @@
                 </a>
             </div>
         </nav>
+      </section>
     </header>
     <main>
         <img src="./assets/images/top-image.png" alt="top-image" class="uk-width-1-1">
         <!-- Title Section-->
-        <section class="uk-section uk-padding-remove-horizontal uk-section-primary" style="padding: 60px;">
+        <section class="uk-section uk-padding-remove-horizontal uk-section-secondary" style="padding: 60px;">
             <div class="uk-container uk-padding-remove">
                 <div class="uk-width-2-3@m uk-margin-auto uk-text-center">
                     <h4 class="uk-h4 uk-margin-remove uk-text-muted" style="padding-bottom: 8px;"><b>KIDS</b></h4>
@@ -61,7 +64,7 @@
             </div>
         </section>
         <!-- Spiky Section-->
-        <section class="uk-section-large uk-section-secondary">
+        <section class="uk-section-large">
             <div class="uk-container">
                 <div class="uk-width-5-6@m uk-margin-auto">
                     <div class="uk-grid-medium uk-flex-middle" uk-grid>
@@ -88,12 +91,12 @@
 
     </section class= "uk-section ">
     <section>
-       <div class="uk-flex uk-flex-center uk-section-primary uk-section-small">
+       <div class="uk-flex uk-flex-center uk-section-secondary uk-section-small margin">
         <h4><b>Çocuklar İçin Etkinliklerimiz</b></h4>
     </div> 
     </section>
     
-    <section class="uk-section uk-section-primary  uk-padding-remove-top">
+    <section class="uk-section uk-padding-remove-top uk-section-secondary">
        <div class="uk-container">
         <div class="uk-child-width-1-3@s uk-grid-medium" uk-grid>
                 
@@ -135,14 +138,14 @@
        </div>
     </section>
      <!-- Slider Section-->
-     <section class="uk-section uk-section-secondary">
+     <section class="uk-section">
         <div class="uk-container">
-            <div class="uk-margin-auto uk-text-center">
+            <div class="uk-text-center">
                 <div class="uk-grid-medium" uk-grid>
                     <div class="uk-width-2-1">
                         <div class="uk-width-1-1@m">
-                            <div class="uk-text-large uk-text-center centerHeader uk-padding-large-top" style= "padding: 30px;">
-                                <h3 class="uk-padding-large-bottom">Resimler</h3>
+                            <div class="uk-text-large uk-text-center centerHeader uk-padding-large-top padding-top" style= "padding: 30px;">
+                                <h3>Resimler</h3>
                             </div>
                         </div>
                     </div>
@@ -186,11 +189,11 @@
         </div>
     </section>
     <!-- Slideshow Section-->
-    <section class="uk-section uk-section uk-section-primary">
+    <section class="uk-section uk-section uk-section-secondary">
         <div class="uk-container">
             <section class="uk-section">
                 <div class="uk-container">
-                    <div class="uk-h3">SlideShow</div>
+                    <div class="uk-h3 uk-text-center">SlideShow</div>
                     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
         
                         <div uk-slideshow="animation:pull; autoplay: true; autoplay-interval:2000;" class="uk-position-relative uk-visible-toggle">
@@ -217,7 +220,8 @@
             </div>
         </div>
     </section>
-    <section class="uk-section uk-section-secondary">
+    <!--Accordion Section-->
+    <section class="uk-section">
         <div class="uk-container">
             <div class="uk-padding-large">
                 <ul uk-accordion>
@@ -247,7 +251,8 @@
 
     </div>
     </section>
-    <section class="uk-section  uk-section-primary">
+    <!--Switcher And Tab-->
+    <section class="uk-section uk-section-secondary">
         <div class="uk-container">
             <ul uk-tab>
                 <li><a href="#">Başlık 1</a></li>
@@ -263,7 +268,7 @@
         </div>
     </section>
    <!-- Slideshow2 Section-->
-    <section class="uk-section uk-section-secondary uk-overflow-auto">
+    <section class="uk-section uk-overflow-auto">
         
             <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider>
                 <div class="uk-position-relative uk-visible-toggle uk-overflow-hidden" tabindex="-1" uk-slider="autoplay:true; autoplay-interval:3000; center:true;">
@@ -339,7 +344,7 @@
             </div>  
     </section>
     <!-- Offcanvas Section-->
-    <section class="uk-section uk-section-primary">
+    <section class="uk-section uk-section-secondary">
         <div class="uk-container uk-margin-auto uk-text-center">
         <div class="uk-grid-medium" uk-grid>
            <div class="uk-width-1-1@m">
@@ -370,7 +375,7 @@
         </div>
     </section>
     <!-- Lightbox Section-->
-    <section class="uk-section uk-section-secondary">
+    <section class="uk-section">
         <div class="uk-container uk-margin-auto uk-text-center">
             <div uk-lightbox>
                 <a class="uk-button uk-button-default" href="assets/images/sld2.jpg" data-caption="Caption">Open Lightbox</a>
@@ -379,7 +384,7 @@
 
     </section>
     <!-- Modal Section-->
-    <section class="uk-section uk-section-primary">
+    <section class="uk-section uk-section-secondary">
         <div class="uk-container uk-margin-auto uk-text-center">
             <p uk-margin>
                 <a class="uk-button uk-button-default" href="#modal-group-1" uk-toggle>Open The Story</a>

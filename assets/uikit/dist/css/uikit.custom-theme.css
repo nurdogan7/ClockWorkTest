@@ -2451,6 +2451,13 @@ select.uk-form-width-xsmall {
 .numeric-dotnav li.uk-active::before {
   color: white;
 }
+.tile {
+  margin-left: 0;
+  margin-top: -50px;
+  border-radius: 25px;
+  box-shadow: 5px 5px black;
+  width: auto;
+}
 /* ========================================================================
    Component: Container
  ========================================================================== */
@@ -9806,5 +9813,17 @@ iframe.uk-cover {
   h2,
   h3 {
     page-break-after: avoid;
+  }
+}
+@media (min-width: 960px) {
+  .tile {
+    margin-left: -100px;
+    margin-top: 0;
+  }
+  .padding-top {
+    padding: 40px;
+  }
+  .margin {
+    margin: 0;
   }
 }
