@@ -2437,19 +2437,19 @@ select.uk-form-width-xsmall {
   position: absolute;
   width: 28px;
   text-align: center;
-  font-size: 14px;
-  height: 24px;
+  font-size: 16px;
+  height: 10px;
 }
 .numeric-dotnav li a {
   width: 28px;
   height: 24px;
-  border-radius: 2px;
+  border-radius: 15px;
 }
 .numeric-dotnav li.uk-active a {
   background-color: #242424;
 }
 .numeric-dotnav li.uk-active::before {
-  color: white;
+  color: #d44e86;
 }
 .tile {
   margin-left: 0;
