@@ -2455,7 +2455,7 @@ select.uk-form-width-xsmall {
   margin-left: 0;
   margin-top: -50px;
   border-radius: 25px;
-  box-shadow: 5px 5px black;
+  box-shadow: 3px 3px #c7bebe;
   width: auto;
 }
 /* ========================================================================
@@ -9822,8 +9822,5 @@ iframe.uk-cover {
   }
   .padding-top {
     padding: 40px;
-  }
-  .margin {
-    margin: 0;
   }
 }

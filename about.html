@@ -30,7 +30,7 @@
             <div class="uk-container">
                 <div class="uk-grid-medium uk-grid-collapse uk-text-center uk-flex-middle" uk-grid>
                     <div class="uk-width-5-6@m">
-                         <img src="./assets/images/about.jpg" alt="About Us" class="uk-width-1-1" uk-img>
+                         <img data-src="./assets/images/about.jpg" alt="About Us" class="uk-width-1-1" uk-img>
                      </div>
                      <div class="uk-width-1-6@m">
                         <div class="uk-tile uk-tile-default tile" >
@@ -49,36 +49,32 @@
         <div >
             <h3 class="uk-text-center" ><b>Full Screen Slideshow</b></h3>
         </div> 
-                <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push">
+                <div class="uk-position-relative" tabindex="-1" uk-slideshow="animation: push">
                      <div uk-slideshow="animation:fade ; autoplay: true; autoplay-interval:3000;" class="uk-position-relative uk-visible-toggle">
                     <ul class="uk-slideshow-items" uk-height-viewport>
                         
                         <li>
                             <img src="./assets/images/img1.jpg" alt="1" uk-cover>
-                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                                <h3 class="uk-margin-remove">Overlay Bottom</h3>
-                                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="uk-position-center-left uk-position-large uk-text-center uk-light">
+                                <b><p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></b>
                             </div>
                         </li>
                         <li>
                             <img src="./assets/images/img2.jpg" alt="2" uk-cover>
-                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                                <h3 class="uk-margin-remove">Overlay Bottom</h3>
-                                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="uk-position-center-left uk-position-large uk-text-center uk-light">
+                                <b><p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></b>
                             </div>
                         </li>
                         <li>
                             <img src="./assets/images/img3.jpg" alt="3"uk-cover>
-                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                                <h3 class="uk-margin-remove">Overlay Bottom</h3>
-                                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="uk-position-center-left uk-position-large uk-text-center uk-light">
+                                <b><p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></b>
                             </div>
                         </li>
                         <li>
                             <img src="./assets/images/img4.jpg" alt="4"uk-cover>
-                            <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
-                                <h3 class="uk-margin-remove">Overlay Bottom</h3>
-                                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="uk-position-center-left uk-position-large uk-text-center uk-light">
+                                <b><p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></b>
                             </div>
                         </li>
                     </ul>
@@ -89,81 +85,89 @@
                     </div>
                 
                 </div>
-                <!--Slider2 Section-->
+        <!--Slider2 Section-->
                 <section class="uk-section">
                     <div class="uk-container">
                          <div >
                                 <h3 class="uk-text-center" ><b>Slider2</b></h3>
                          </div>
-                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
-                            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid">
-                                <li>
-                                    <div class="uk-panel" uk-parallax="scale:1; bgx:100vw">
-                                        <img src="./assets/images/img1.jpg" class="uk-position">
-                                        <div class="uk-position-center uk-panel"></div>
-                                        
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center:true; draggable:false;" uk-slider>
+                            <ul class="uk-slider-items uk-child-width-1-2@s" uk-grid>
+                                <li class="uk-padding-remove">
+                                    <div class="uk-panel" uk-slider-parallax="scale:0.9,1,0.9; x:62">
+                                        <img src="./assets/images/img1.jpg" class="uk-width-1-1">
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="uk-panel" uk-parallax="scale:1; bgx:100vw">
-                                        <img src="./assets/images/img5.jpg">
-                                        <div class="uk-position-center uk-panel"></div>
-                                       
+                                <li class="uk-padding-remove">
+                                    <div class="uk-panel" uk-slider-parallax="scale:0.9,1,0.9; x:62;">
+                                        <img src="./assets/images/img5.jpg" class="uk-width-1-1">
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="uk-panel" uk-parallax=" scale:1; bgx:100vw">
-                                        <img src="./assets/images/img3.jpg">
-                                        <div class="uk-position-center uk-panel"></div>
-                                        
+                                <li class="uk-padding-remove">
+                                    <div class="uk-panel" uk-slider-parallax=" scale:0.9,1,0.9; x:62;">
+                                        <img src="./assets/images/img3.jpg" class="uk-width-1-1">
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="uk-panel" uk-parallax=" scale:1; bgx:100vw">
-                                        <img src="./assets/images/img4.jpg">
-                                        <div class="uk-position-center uk-panel"></div>
-                                        
+                                <li class="uk-padding-remove">
+                                    <div class="uk-panel" uk-slider-parallax=" scale:0.9,1,0.9; x:62;">
+                                        <img src="./assets/images/img4.jpg" class="uk-width-1-1">
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="uk-panel" uk-parallax="scale:1; bgx:100vw">
-                                        <img src="./assets/images/img6.jpg">
-                                        <div class="uk-position-center uk-panel"></div>
-                                        
+                                <li class="uk-padding-remove">
+                                    <div class="uk-panel" uk-slider-parallax="scale:0.9,1,0.9; x:62;">
+                                        <img src="./assets/images/img6.jpg"  class="uk-width-1-1">
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="uk-panel" uk-parallax=" scale:1; bgx:100vw">
-                                        <img src="./assets/images/img7.jpg">
-                                        <div class="uk-position-center uk-panel"></div>
-                                        
+                                <li class="uk-padding-remove">
+                                    <div class="uk-panel" uk-slider-parallax=" scale:0.9,1,0.9; x:62;">
+                                        <img src="./assets/images/img7.jpg"  class="uk-width-1-1">
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="uk-panel" uk-parallax="scale:1; bgx:100vw">
-                                        <img src="./assets/images/img8.jpg">
-                                        <div class="uk-position-center uk-panel"></div>
-                                        
+                                <li class="uk-padding-remove">
+                                    <div class="uk-panel" uk-slider-parallax="scale:0.9,1,0.9; x:62;">
+                                        <img src="./assets/images/img8.jpg"  class="uk-width-1-1">   
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="uk-panel" uk-parallax="scale:1; bgx:100vw">
-                                        <img src="./assets/images/img9.jpg">
-                                        <div class="uk-position-center uk-panel"></div>
-                                        
+                                <li class="uk-padding-remove">
+                                    <div class="uk-panel" uk-slider-parallax="scale:0.9,1,0.9; x:62;">
+                                        <img src="./assets/images/img9.jpg" class="uk-width-1-1">
                                     </div>
                                 </li>
-                               
-                            </ul>
-                            
+                            </ul>  
                             <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
                             <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-                        
                         </div>
-
                     </div>
                 </section>
-     
+        <!--Background Image-->
+        <section class="uk-section uk-background-cover uk-height-viewport uk-cover-container" style="background-image: url(assets/images/img4.jpg);"> 
+            <div class="uk-container">
+                <div class="uk-grid-medium uk-child-width-1-2@m uk-flex-middle" uk-grid>
+                    <div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, id.</p>
+                    </div>
+                    <div class="uk-height-1-1">
+                        <img src="/assets/images/img2.jpg" class="uk-width-1-1" uk-img >
+                    </div>
+                    
+                    
+                </div>
+            </div>             
+        </section>
+        <section class="uk-section"></section>
+        <!--Background Image2-->
+        <section class="uk-position-relative uk-overflow-hidden">
+            <img data-srcset="assets/images/img2.jpg, assets/images/img2.jpg 750w" class="uk-width-1-1" uk-img>
+            <div class="uk-position-cover uk-flex uk-flex-middle uk-overlay-default">
+                <div class="uk-container">
+                    <div class="uk-grid-medium uk-margin-auto uk-child-width-1-1" uk-grid>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, illum?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer></footer>
     <script src="assets/uikit/dist/js/uikit.min.js"></script>
