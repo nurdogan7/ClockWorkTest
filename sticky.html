@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky</title>
+    <link rel="stylesheet" href="assets/uikit/dist/css/uikit.custom-theme.min.css">
+</head>
+<body>
+    <header>
+        <section>
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-sticky uk-navbar>
+                <div class="uk-navbar-left">
+                    <a class="uk-navbar-item" href="#">
+                        <span uk-navbar-item-icon></span> <span class="uk-margin-small-left">Menu</span>
+                    </a>
+                    <a class="uk-navbar-item uk-visible@m" href="#">
+                        <span class="uk-margin-small-left">TR</span><span uk-icon="icon: chevron-down"></span>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">TR</a></li>
+                                <li><a href="#">ENG</a></li>
+                            </ul>
+                        </div>   
+                    </a>
+                </div>
+                <div class="uk-navbar-center">
+                    <img src="./assets/images/logo.png"/>
+                </div>
+                <div class="uk-navbar-right">
+                    <a class="uk-navbar-item uk-visible@m" href="#">
+                        <a class="uk-button uk-button-default  uk-visible@m" href="#">REZERVASYON</a>
+                    </a>
+                    <a class="uk-navbar-item uk-visible@m" href="tel:+904446338">
+                        <span uk-icon="icon: receiver"></span><span class="uk-margin-small-right">+90 444 63 38</span>
+                    </a>
+                    <a class="uk-navbar-item uk-hidden@m" href="#">
+                        <span class="uk-margin-small-left">TR</span><span uk-icon="icon: chevron-down"></span>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">TR</a></li>
+                                <li><a href="#">ENG</a></li>
+                            </ul>
+                        </div>   
+                    </a>
+                </div>
+            </nav>
+          </section>
+    </header>
+    <main>
+        <div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top uk-width-1-1" uk-parallax="bgy: -200" style="background-image: url(assets/images/handbag.jpg);">
+
+           
+        </div>
+        <section class="uk-section"></section>
+        <div id="test-target" class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top uk-width-1-1" uk-parallax="bgy: -200" style="background-image: url(assets/images/kbm1.jpg);">
+
+            
+        
+        </div>
+    </main>
+    <footer></footer>
+    <script src="assets/uikit/dist/js/uikit.min.js"></script>
+    <script src="assets/uikit/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>

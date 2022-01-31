@@ -78,7 +78,7 @@ strong {
   color: #f0506e;
   white-space: nowrap;
   padding: 2px 6px;
-  background: #560764;
+  background: #913175;
 }
 /*
  * Emphasize
@@ -890,7 +890,7 @@ a.uk-link-reset,
   border-bottom: 1px solid #000000;
 }
 .uk-list-striped > :nth-of-type(odd) {
-  background: #560764;
+  background: #913175;
 }
 .uk-list-striped > :nth-child(n+2) {
   margin-top: 0;
@@ -1039,7 +1039,7 @@ a.uk-link-reset,
  */
 .uk-table-striped > tr:nth-of-type(odd),
 .uk-table-striped tbody tr:nth-of-type(odd) {
-  background: #560764;
+  background: #913175;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
 }
@@ -1244,7 +1244,7 @@ button.uk-icon:not(:disabled) {
   width: 36px;
   height: 36px;
   border-radius: 500px;
-  background: #560764;
+  background: #913175;
   color: #000000;
   vertical-align: middle;
   /* 1 */
@@ -1256,13 +1256,13 @@ button.uk-icon:not(:disabled) {
 }
 /* Hover */
 .uk-icon-button:hover {
-  background-color: #42054c;
+  background-color: #7e2b66;
   color: #0c0c0c;
 }
 /* OnClick + Active */
 .uk-icon-button:active,
 .uk-active > .uk-icon-button {
-  background-color: #2d0434;
+  background-color: #6b2456;
   color: #0c0c0c;
 }
 /* ========================================================================
@@ -1375,32 +1375,32 @@ button.uk-icon:not(:disabled) {
 /* Webkit */
 .uk-range::-webkit-slider-runnable-track {
   height: 3px;
-  background: #42054c;
+  background: #7e2b66;
   border-radius: 500px;
 }
 .uk-range:focus::-webkit-slider-runnable-track,
 .uk-range:active::-webkit-slider-runnable-track {
-  background: #2d0434;
+  background: #6b2456;
 }
 /* Firefox */
 .uk-range::-moz-range-track {
   height: 3px;
-  background: #42054c;
+  background: #7e2b66;
   border-radius: 500px;
 }
 .uk-range:focus::-moz-range-track {
-  background: #2d0434;
+  background: #6b2456;
 }
 /* Edge */
 .uk-range::-ms-fill-lower,
 .uk-range::-ms-fill-upper {
   height: 3px;
-  background: #42054c;
+  background: #7e2b66;
   border-radius: 500px;
 }
 .uk-range:focus::-ms-fill-lower,
 .uk-range:focus::-ms-fill-upper {
-  background: #2d0434;
+  background: #6b2456;
 }
 /* ========================================================================
    Component: Form
@@ -1523,7 +1523,7 @@ button.uk-icon:not(:disabled) {
   border: 0 none;
   /* 4 */
   padding: 0 10px;
-  background: #560764;
+  background: #913175;
   color: #0c0c0c;
   border: 1px solid #000000;
   transition: 0.2s ease-in-out;
@@ -1566,7 +1566,7 @@ button.uk-icon:not(:disabled) {
 .uk-select:focus,
 .uk-textarea:focus {
   outline: none;
-  background-color: #560764;
+  background-color: #913175;
   color: #0c0c0c;
   border-color: #DD5B82;
 }
@@ -1574,7 +1574,7 @@ button.uk-icon:not(:disabled) {
 .uk-input:disabled,
 .uk-select:disabled,
 .uk-textarea:disabled {
-  background-color: #560764;
+  background-color: #913175;
   color: #000000;
   border-color: #000000;
 }
@@ -1763,7 +1763,7 @@ select.uk-form-width-xsmall {
   -webkit-appearance: none;
   -moz-appearance: none;
   /* 5 */
-  background-color: #42054c;
+  background-color: #7e2b66;
   /* 6 */
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -1777,7 +1777,7 @@ select.uk-form-width-xsmall {
 /* Focus */
 .uk-radio:focus,
 .uk-checkbox:focus {
-  background-color: #2d0434;
+  background-color: #6b2456;
   outline: none;
   border-color: #DD5B82;
 }
@@ -1813,7 +1813,7 @@ select.uk-form-width-xsmall {
  */
 .uk-radio:disabled,
 .uk-checkbox:disabled {
-  background-color: #560764;
+  background-color: #913175;
   border-color: #000000;
 }
 .uk-radio:disabled:checked {
@@ -2136,7 +2136,7 @@ select.uk-form-width-xsmall {
 .uk-button-primary:disabled,
 .uk-button-secondary:disabled,
 .uk-button-danger:disabled {
-  background-color: #560764;
+  background-color: #913175;
   color: #000000;
   border-color: #000000;
 }
@@ -2274,7 +2274,7 @@ select.uk-form-width-xsmall {
   /* 4 */
   border: 0;
   /* 5 */
-  background-color: #560764;
+  background-color: #913175;
   /* 6 */
   margin-bottom: 20px;
   height: 15px;
@@ -2296,7 +2296,7 @@ select.uk-form-width-xsmall {
  * 2. Remove progress bar for indeterminate state in Firefox
  */
 .uk-progress::-webkit-progress-bar {
-  background-color: #560764;
+  background-color: #913175;
   border-radius: 500px;
   overflow: hidden;
 }
@@ -2696,7 +2696,7 @@ select.uk-form-width-xsmall {
  * Muted
  */
 .uk-tile-muted {
-  background-color: #560764;
+  background-color: #913175;
 }
 /*
  * Primary
@@ -2800,7 +2800,7 @@ select.uk-form-width-xsmall {
 /* Hover modifier
  ========================================================================== */
 .uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover {
-  background-color: #560764;
+  background-color: #913175;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /* Style modifiers
@@ -2810,7 +2810,7 @@ select.uk-form-width-xsmall {
  * Note: Header and Footer are only implemented for the default style
  */
 .uk-card-default {
-  background-color: #560764;
+  background-color: #913175;
   color: #0c0c0c;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2818,7 +2818,7 @@ select.uk-form-width-xsmall {
   color: #131212;
 }
 .uk-card-default.uk-card-hover:hover {
-  background-color: #42054c;
+  background-color: #7e2b66;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 .uk-card-default .uk-card-header {
@@ -3069,7 +3069,7 @@ select.uk-form-width-xsmall {
   position: relative;
   margin-bottom: 20px;
   padding: 15px 29px 15px 15px;
-  background: #560764;
+  background: #913175;
   color: #0c0c0c;
 }
 /* Add margin if adjacent element */
@@ -3160,7 +3160,7 @@ select.uk-form-width-xsmall {
 .uk-placeholder {
   margin-bottom: 20px;
   padding: 30px 30px;
-  background: #560764;
+  background: #913175;
   border: 1px dashed #000000;
 }
 /* Add margin if adjacent element */
@@ -3381,7 +3381,7 @@ select.uk-form-width-xsmall {
  ========================================================================== */
 .uk-comment-primary {
   padding: 30px;
-  background-color: #560764;
+  background-color: #913175;
 }
 /* ========================================================================
    Component: Search
@@ -3511,12 +3511,12 @@ select.uk-form-width-xsmall {
   height: 40px;
   padding-left: 6px;
   padding-right: 6px;
-  background: #560764;
+  background: #913175;
   border: 1px solid #000000;
 }
 /* Focus */
 .uk-search-default .uk-search-input:focus {
-  background-color: #560764;
+  background-color: #913175;
 }
 /*
  * Icon
@@ -3702,7 +3702,7 @@ select.uk-form-width-xsmall {
   min-width: 200px;
   /* 4 */
   padding: 15px;
-  background: #560764;
+  background: #913175;
   color: #0c0c0c;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
 }
@@ -3898,13 +3898,13 @@ select.uk-form-width-xsmall {
 .uk-modal-header {
   display: flow-root;
   padding: 15px 30px;
-  background: #560764;
+  background: #913175;
   border-bottom: 1px solid #000000;
 }
 .uk-modal-footer {
   display: flow-root;
   padding: 15px 30px;
-  background: #560764;
+  background: #913175;
   border-top: 1px solid #000000;
 }
 /*
@@ -4457,7 +4457,7 @@ select.uk-form-width-xsmall {
 .uk-notification-message {
   position: relative;
   padding: 15px;
-  background: #560764;
+  background: #913175;
   color: #0c0c0c;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -5419,7 +5419,7 @@ ul.uk-nav-sub {
   width: 200px;
   /* 4 */
   padding: 15px;
-  background: #560764;
+  background: #913175;
   color: #0c0c0c;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
 }
@@ -5532,7 +5532,7 @@ ul.uk-nav-sub {
 /* Dropbar
  ========================================================================== */
 .uk-navbar-dropbar {
-  background: #560764;
+  background: #913175;
 }
 /*
  * Slide modifier
@@ -5681,12 +5681,12 @@ ul.uk-nav-sub {
 }
 /* Hover */
 .uk-subnav-pill > * > a:hover {
-  background-color: #560764;
+  background-color: #913175;
   color: #0c0c0c;
 }
 /* OnClick */
 .uk-subnav-pill > * > a:active {
-  background-color: #560764;
+  background-color: #913175;
   color: #0c0c0c;
 }
 /* Active */
@@ -7491,7 +7491,7 @@ iframe.uk-cover {
   background-color: #eee;
 }
 .uk-background-muted {
-  background-color: #560764;
+  background-color: #913175;
 }
 .uk-background-primary {
   background-color: #DD5B82;
@@ -9483,7 +9483,7 @@ iframe.uk-cover {
   color: #050505;
 }
 .uk-dark .uk-marker {
-  background: #560764;
+  background: #913175;
   color: #0c0c0c;
 }
 .uk-dark .uk-marker:hover {
