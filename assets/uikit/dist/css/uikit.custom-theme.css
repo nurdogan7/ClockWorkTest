@@ -5544,6 +5544,9 @@ ul.uk-nav-sub {
   right: 0;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.05);
 }
+.navbar-slide-background {
+  background-color: #fff;
+}
 /*
      * Navbar
      */

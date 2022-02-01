@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="assets/uikit/dist/css/uikit.custom-theme.min.css">
 </head>
 <body>
-    <header>
-        <section>
-            <nav class="uk-navbar-container uk-navbar-transparent" uk-sticky uk-navbar>
+    <header uk-sticky=" animation: uk-animation-slide-top; top: 100px; sel-target: .target;cls-active: navbar-slide-background uk-navbar-sticky; cls-inactive: uk-light" class="uk-sticky">
+        <div class="target uk-position-top uk-position-z-index active-navbar-background uk-light">
+            <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar style="position: relative; z-index: 980;">
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item" href="#">
-                        <span uk-navbar-item-icon></span> <span class="uk-margin-small-left">Menu</span>
+                    <a class="uk-navbar-item uk-visible@m" href="#">
+                        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#"></a> <span class="uk-margin-small-left">Menu</span>
                     </a>
                     <a class="uk-navbar-item uk-visible@m" href="#">
                         <span class="uk-margin-small-left">TR</span><span uk-icon="icon: chevron-down"></span>
@@ -44,21 +44,22 @@
                             </ul>
                         </div>   
                     </a>
-                </div>
             </nav>
-          </section>
+        </div>
+          
     </header>
     <main>
-        <div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top uk-width-1-1" uk-parallax="bgy: -200" style="background-image: url(assets/images/handbag.jpg);">
-
-           
+        <div class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top uk-width-1-1" uk-parallax="bgy: -200; viewport: 0.5;" style="background-image: url(assets/images/handbag.jpg);">
         </div>
         <section class="uk-section"></section>
-        <div id="test-target" class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top uk-width-1-1" uk-parallax="bgy: -200" style="background-image: url(assets/images/kbm1.jpg);">
+        <div id="test-target" class="uk-height-large uk-background-cover uk-light uk-flex uk-flex-top uk-width-1-1" uk-parallax="bgy: -200; viewport: 0.5;" style="background-image: url(assets/images/kbm1.jpg);">
 
-            
+          
         
-        </div>
+        </div>  <section class="uk-section"></section>
+            <section class="uk-section"></section>
+            <section class="uk-section"></section>
+            <section class="uk-section"></section>
     </main>
     <footer></footer>
     <script src="assets/uikit/dist/js/uikit.min.js"></script>
