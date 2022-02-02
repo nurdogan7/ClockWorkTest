@@ -13,7 +13,7 @@
         <!--Grid Passific Section-->
         <section class="uk-section">
             <div class="uk-container">
-                <div class="uk-grid-medium" uk-grid>
+                <div class="uk-grid-medium" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" uk-grid>
                     <div class="uk-width-expand@l">
                     <div>
                         <h3>About Us</h3>                  
@@ -28,11 +28,11 @@
                 </div>
             </div>
             <div class="uk-container">
-                <div class="uk-grid-medium uk-grid-collapse uk-text-center uk-flex-middle" uk-grid>
+                <div class="uk-grid-medium uk-grid-collapse uk-text-center uk-flex-middle"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" uk-grid>
                     <div class="uk-width-5-6@m">
                          <img data-src="./assets/images/about.jpg" alt="About Us" class="uk-width-1-1" uk-img>
                      </div>
-                     <div class="uk-width-1-6@m">
+                     <div class="uk-width-1-6@m"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;">
                         <div class="uk-tile uk-tile-default tile" >
                             <div class="uk-h4 uk-text-bold">PASSIFIC HOUSE</div>
                                 <p class="uk-text-emphasis uk-text-normal uk-text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ipsum optio, error deserunt assumenda debitis quam, temporibus at voluptatum eos placeat excepturi blanditiis pariatur rerum id ipsam! In fuga nihil, sint, harum tempora veniam dolorem asperiores rem, quia illo aperiam.</p>
@@ -46,11 +46,11 @@
             </div>
         </section>
         <!--Full Screen Slideshow-->
-        <div >
+        <div  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;">
             <h3 class="uk-text-center" ><b>Full Screen Slideshow</b></h3>
         </div> 
-                <div class="uk-position-relative" tabindex="-1" uk-slideshow="animation: push">
-                     <div uk-slideshow="animation:fade ; autoplay: true; autoplay-interval:3000;" class="uk-position-relative uk-visible-toggle">
+                <div class="uk-position-relative" tabindex="-1" uk-slideshow="animation: push" >
+                     <div uk-slideshow="animation:fade ; autoplay: true; autoplay-interval:3000;" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" class="uk-position-relative uk-visible-toggle">
                     <ul class="uk-slideshow-items" uk-height-viewport>
                         
                         <li>
@@ -88,10 +88,10 @@
         <!--Slider2 Section-->
                 <section class="uk-section">
                     <div class="uk-container">
-                         <div >
+                         <div  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" >
                                 <h3 class="uk-text-center" ><b>Slider2</b></h3>
                          </div>
-                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="center:true; draggable:false;" uk-slider>
+                            <div class="uk-position-relative uk-visible-toggle uk-light"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" tabindex="-1" uk-slider="center:true; draggable:false;" uk-slider>
                             <ul class="uk-slider-items uk-child-width-1-2@s uk-grid-collapse" uk-grid>
                                 <li class="uk-padding-remove">
                                     <div class="uk-panel" uk-slider-parallax="scale:0.9,1,0.9; x:62">
@@ -140,7 +140,7 @@
                     </div>
                 </section>
         <!--Background Image-->
-        <section class="uk-section uk-background-cover uk-cover-container" style="background-image: url(assets/images/img4.jpg);"> 
+        <section class="uk-section uk-background-cover uk-cover-container"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" style="background-image: url(assets/images/img4.jpg);"> 
             <div class="uk-container">
                 <div class="uk-grid-medium uk-child-width-1-2@m uk-flex-middle" uk-grid>
                     <div>
@@ -156,7 +156,7 @@
         </section>
         <section class="uk-section"></section>
         <!--Background Image2-->
-        <section class="uk-position-relative uk-overflow-hidden">
+        <section class="uk-position-relative uk-overflow-hidden"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;">
             <img data-srcset="assets/images/img3.jpg, assets/images/img3.jpg 750w" class="uk-width-1-1" uk-img>
             <div class="uk-position-cover uk-flex uk-flex-middle uk-overlay-default">
                 <div class="uk-container">
@@ -173,11 +173,11 @@
         <!--Notification And Animation-->
         <section class="uk-section">
             <div class="uk-container uk-text-center">
-                <ul class="uk-text-center" uk-tab>
+                <ul class="uk-text-center" uk-tab  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;">
                     <li><a href="#">Notification</a></li>
                     <li><a href="#">Animations</a></li>
                 </ul>              
-                <ul class="uk-switcher uk-margin">
+                <ul class="uk-switcher uk-margin"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;">
                     <li>
                     <button class="uk-button uk-button-default demo" type="button" onclick="UIkit.notification({message: 'Primary message...', status: 'primary'})">Primary</button>
                     <button class="uk-button uk-button-default demo" type="button" onclick="UIkit.notification({message: 'Success message...', status: 'success'})">Success</button>
@@ -278,9 +278,10 @@
         <!-- Disney Filter Section-->
         <section class="uk-section">
             <div class="uk-container">
+                <h3 class="uk-text-center"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" style="padding-bottom: 30px;"><b>DISNEY PRINCESS</b></h3>
                 <div uk-filter="target: .js-filter">
 
-                    <div class="uk-grid-small uk-grid-divider uk-child-width-auto uk-flex uk-flex-center" uk-grid>
+                    <div class="uk-grid-small uk-grid-divider uk-child-width-auto uk-flex uk-flex-center" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" uk-grid>
                         <div>
                             <ul class="uk-subnav uk-subnav-pill" uk-margin>
                                 <li class="uk-active" uk-filter-control><a href="#">Hepsi</a></li>
@@ -304,9 +305,9 @@
                         
                     </div>
                 
-                    <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid="masonry: true">
+                    <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" uk-grid="masonry: true">
                         <li data-hair-color="yellow" data-eyes-color="blue">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/cindirella.png">
                                 </div>
@@ -316,7 +317,7 @@
                             </div>
                         </li>
                         <li data-hair-color="black" data-eyes-color="brown">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/pamuk prenses.png">
                                 </div>
@@ -326,7 +327,7 @@
                             </div>
                         </li>
                         <li data-hair-color="brown" data-eyes-color="brown">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/prenses moana.png">
                                 </div>
@@ -336,7 +337,7 @@
                             </div>
                         </li>
                         <li data-hair-color="yellow" data-eyes-color="green">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/prenses elsa.png">
                                 </div>
@@ -346,7 +347,7 @@
                             </div>
                         </li>
                         <li data-hair-color="brown" data-eyes-color="blue">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/prenses belle.png">
                                 </div>
@@ -355,8 +356,8 @@
                                 </div>
                             </div>
                         </li>
-                        <li data-hair-color="yellow" data-eyes-color="blue">
-                            <div class="uk-card uk-card-default">
+                        <li data-hair-color="yellow" data-eyes-color="brown">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/rapunzel.png">
                                 </div>
@@ -366,7 +367,7 @@
                             </div>
                         </li>
                         <li data-hair-color="yellow" data-eyes-color="blue">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/prenses aurora.png">
                                 </div>
@@ -376,7 +377,7 @@
                             </div>
                         </li>
                         <li data-hair-color="red" data-eyes-color="green">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/prenses ariel.png">
                                 </div>
@@ -386,7 +387,7 @@
                             </div>
                         </li>
                         <li data-hair-color="red" data-eyes-color="blue">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/prenses merida.png">
                                 </div>
@@ -396,7 +397,7 @@
                             </div>
                         </li>
                         <li data-hair-color="black" data-eyes-color="green">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/prenses jasmine.png">
                                 </div>
@@ -406,7 +407,7 @@
                             </div>
                         </li>
                         <li data-hair-color="black" data-eyes-color="blue">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/pocahontas.png">
                                 </div>
@@ -416,7 +417,7 @@
                             </div>
                         </li>
                         <li data-hair-color="brown" data-eyes-color="green">
-                            <div class="uk-card uk-card-default">
+                            <div class="uk-card uk-card-default uk-border-rounded">
                                 <div class="uk-card-media-top" style="height: 250px; padding-top: 15px;">
                                     <img class="uk-height-1-1" src="assets/images/tiana.png">
                                 </div>

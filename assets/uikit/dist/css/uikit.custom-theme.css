@@ -78,7 +78,7 @@ strong {
   color: #f0506e;
   white-space: nowrap;
   padding: 2px 6px;
-  background: #913175;
+  background: #f0d8d8;
 }
 /*
  * Emphasize
@@ -517,7 +517,7 @@ a.uk-link-heading,
 a.uk-link-heading:hover,
 .uk-link-heading a:hover,
 .uk-link-toggle:hover .uk-link-heading {
-  color: #DD5B82;
+  color: #eba3a3;
   text-decoration: none;
 }
 /* Reset
@@ -848,10 +848,10 @@ a.uk-link-reset,
   color: #131212 !important;
 }
 .uk-list-primary > ::before {
-  color: #DD5B82 !important;
+  color: #eba3a3 !important;
 }
 .uk-list-secondary > ::before {
-  color: #000000 !important;
+  color: #e69f9f !important;
 }
 /* Image bullet modifier
  ========================================================================== */
@@ -890,7 +890,7 @@ a.uk-link-reset,
   border-bottom: 1px solid #000000;
 }
 .uk-list-striped > :nth-of-type(odd) {
-  background: #913175;
+  background: #f0d8d8;
 }
 .uk-list-striped > :nth-child(n+2) {
   margin-top: 0;
@@ -1039,7 +1039,7 @@ a.uk-link-reset,
  */
 .uk-table-striped > tr:nth-of-type(odd),
 .uk-table-striped tbody tr:nth-of-type(odd) {
-  background: #913175;
+  background: #f0d8d8;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
 }
@@ -1244,7 +1244,7 @@ button.uk-icon:not(:disabled) {
   width: 36px;
   height: 36px;
   border-radius: 500px;
-  background: #913175;
+  background: #f0d8d8;
   color: #000000;
   vertical-align: middle;
   /* 1 */
@@ -1256,13 +1256,13 @@ button.uk-icon:not(:disabled) {
 }
 /* Hover */
 .uk-icon-button:hover {
-  background-color: #7e2b66;
+  background-color: #e9c6c6;
   color: #0c0c0c;
 }
 /* OnClick + Active */
 .uk-icon-button:active,
 .uk-active > .uk-icon-button {
-  background-color: #6b2456;
+  background-color: #e2b3b3;
   color: #0c0c0c;
 }
 /* ========================================================================
@@ -1375,32 +1375,32 @@ button.uk-icon:not(:disabled) {
 /* Webkit */
 .uk-range::-webkit-slider-runnable-track {
   height: 3px;
-  background: #7e2b66;
+  background: #e9c6c6;
   border-radius: 500px;
 }
 .uk-range:focus::-webkit-slider-runnable-track,
 .uk-range:active::-webkit-slider-runnable-track {
-  background: #6b2456;
+  background: #e2b3b3;
 }
 /* Firefox */
 .uk-range::-moz-range-track {
   height: 3px;
-  background: #7e2b66;
+  background: #e9c6c6;
   border-radius: 500px;
 }
 .uk-range:focus::-moz-range-track {
-  background: #6b2456;
+  background: #e2b3b3;
 }
 /* Edge */
 .uk-range::-ms-fill-lower,
 .uk-range::-ms-fill-upper {
   height: 3px;
-  background: #7e2b66;
+  background: #e9c6c6;
   border-radius: 500px;
 }
 .uk-range:focus::-ms-fill-lower,
 .uk-range:focus::-ms-fill-upper {
-  background: #6b2456;
+  background: #e2b3b3;
 }
 /* ========================================================================
    Component: Form
@@ -1523,7 +1523,7 @@ button.uk-icon:not(:disabled) {
   border: 0 none;
   /* 4 */
   padding: 0 10px;
-  background: #913175;
+  background: #f0d8d8;
   color: #0c0c0c;
   border: 1px solid #000000;
   transition: 0.2s ease-in-out;
@@ -1566,15 +1566,15 @@ button.uk-icon:not(:disabled) {
 .uk-select:focus,
 .uk-textarea:focus {
   outline: none;
-  background-color: #913175;
+  background-color: #f0d8d8;
   color: #0c0c0c;
-  border-color: #DD5B82;
+  border-color: #eba3a3;
 }
 /* Disabled */
 .uk-input:disabled,
 .uk-select:disabled,
 .uk-textarea:disabled {
-  background-color: #913175;
+  background-color: #f0d8d8;
   color: #000000;
   border-color: #000000;
 }
@@ -1763,7 +1763,7 @@ select.uk-form-width-xsmall {
   -webkit-appearance: none;
   -moz-appearance: none;
   /* 5 */
-  background-color: #7e2b66;
+  background-color: #e9c6c6;
   /* 6 */
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -1777,9 +1777,9 @@ select.uk-form-width-xsmall {
 /* Focus */
 .uk-radio:focus,
 .uk-checkbox:focus {
-  background-color: #6b2456;
+  background-color: #e2b3b3;
   outline: none;
-  border-color: #DD5B82;
+  border-color: #eba3a3;
 }
 /*
  * Checked
@@ -1787,14 +1787,14 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: #DD5B82;
+  background-color: #eba3a3;
   border-color: transparent;
 }
 /* Focus */
 .uk-radio:checked:focus,
 .uk-checkbox:checked:focus,
 .uk-checkbox:indeterminate:focus {
-  background-color: #d43162;
+  background-color: #e27979;
 }
 /*
  * Icons
@@ -1813,7 +1813,7 @@ select.uk-form-width-xsmall {
  */
 .uk-radio:disabled,
 .uk-checkbox:disabled {
-  background-color: #913175;
+  background-color: #f0d8d8;
   border-color: #000000;
 }
 .uk-radio:disabled:checked {
@@ -2075,38 +2075,38 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #DD5B82;
+  background-color: #eba3a3;
   color: #050505;
   border: 1px solid transparent;
 }
 /* Hover */
 .uk-button-primary:hover {
-  background-color: #d94672;
+  background-color: #e68e8e;
   color: #050505;
 }
 /* OnClick + Active */
 .uk-button-primary:active,
 .uk-button-primary.uk-active {
-  background-color: #d43162;
+  background-color: #e27979;
   color: #050505;
 }
 /*
  * Secondary
  */
 .uk-button-secondary {
-  background-color: #000000;
+  background-color: #e69f9f;
   color: #050505;
   border: 1px solid transparent;
 }
 /* Hover */
 .uk-button-secondary:hover {
-  background-color: #000000;
+  background-color: #e18b8b;
   color: #050505;
 }
 /* OnClick + Active */
 .uk-button-secondary:active,
 .uk-button-secondary.uk-active {
-  background-color: #000000;
+  background-color: #db7777;
   color: #050505;
 }
 /*
@@ -2136,7 +2136,7 @@ select.uk-form-width-xsmall {
 .uk-button-primary:disabled,
 .uk-button-secondary:disabled,
 .uk-button-danger:disabled {
-  background-color: #913175;
+  background-color: #f0d8d8;
   color: #000000;
   border-color: #000000;
 }
@@ -2274,7 +2274,7 @@ select.uk-form-width-xsmall {
   /* 4 */
   border: 0;
   /* 5 */
-  background-color: #913175;
+  background-color: #f0d8d8;
   /* 6 */
   margin-bottom: 20px;
   height: 15px;
@@ -2296,7 +2296,7 @@ select.uk-form-width-xsmall {
  * 2. Remove progress bar for indeterminate state in Firefox
  */
 .uk-progress::-webkit-progress-bar {
-  background-color: #913175;
+  background-color: #f0d8d8;
   border-radius: 500px;
   overflow: hidden;
 }
@@ -2309,14 +2309,14 @@ select.uk-form-width-xsmall {
  * 1. Remove right border in IE11 and Edge
  */
 .uk-progress::-webkit-progress-value {
-  background-color: #DD5B82;
+  background-color: #eba3a3;
   transition: width 0.6s ease;
 }
 .uk-progress::-moz-progress-bar {
-  background-color: #DD5B82;
+  background-color: #eba3a3;
 }
 .uk-progress::-ms-fill {
-  background-color: #DD5B82;
+  background-color: #eba3a3;
   transition: width 0.6s ease;
   /* 1 */
   border: 0;
@@ -2696,19 +2696,19 @@ select.uk-form-width-xsmall {
  * Muted
  */
 .uk-tile-muted {
-  background-color: #913175;
+  background-color: #f0d8d8;
 }
 /*
  * Primary
  */
 .uk-tile-primary {
-  background-color: #DD5B82;
+  background-color: #eba3a3;
 }
 /*
  * Secondary
  */
 .uk-tile-secondary {
-  background-color: #000000;
+  background-color: #e69f9f;
 }
 /* ========================================================================
    Component: Card
@@ -2782,7 +2782,7 @@ select.uk-form-width-xsmall {
   height: 22px;
   padding: 0 10px;
   /* 3 */
-  background: #DD5B82;
+  background: #eba3a3;
   color: #050505;
   font-size: 0.875rem;
   /* 4 */
@@ -2800,7 +2800,7 @@ select.uk-form-width-xsmall {
 /* Hover modifier
  ========================================================================== */
 .uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover {
-  background-color: #913175;
+  background-color: #f0d8d8;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /* Style modifiers
@@ -2810,7 +2810,7 @@ select.uk-form-width-xsmall {
  * Note: Header and Footer are only implemented for the default style
  */
 .uk-card-default {
-  background-color: #913175;
+  background-color: #f0d8d8;
   color: #0c0c0c;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2818,7 +2818,7 @@ select.uk-form-width-xsmall {
   color: #131212;
 }
 .uk-card-default.uk-card-hover:hover {
-  background-color: #7e2b66;
+  background-color: #e9c6c6;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 .uk-card-default .uk-card-header {
@@ -2831,7 +2831,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background-color: #DD5B82;
+  background-color: #eba3a3;
   color: #050505;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2839,14 +2839,14 @@ select.uk-form-width-xsmall {
   color: #050505;
 }
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #d94672;
+  background-color: #e68e8e;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /*
  * Secondary
  */
 .uk-card-secondary {
-  background-color: #000000;
+  background-color: #e69f9f;
   color: #050505;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -2854,7 +2854,7 @@ select.uk-form-width-xsmall {
   color: #050505;
 }
 .uk-card-secondary.uk-card-hover:hover {
-  background-color: #000000;
+  background-color: #e18b8b;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 /* Size modifier
@@ -3054,7 +3054,7 @@ select.uk-form-width-xsmall {
  */
 .uk-marker {
   padding: 5px;
-  background: #000000;
+  background: #e69f9f;
   color: #050505;
   border-radius: 500px;
 }
@@ -3069,7 +3069,7 @@ select.uk-form-width-xsmall {
   position: relative;
   margin-bottom: 20px;
   padding: 15px 29px 15px 15px;
-  background: #913175;
+  background: #f0d8d8;
   color: #0c0c0c;
 }
 /* Add margin if adjacent element */
@@ -3111,8 +3111,8 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-alert-primary {
-  background: #fcf1f4;
-  color: #DD5B82;
+  background: #ffffff;
+  color: #eba3a3;
 }
 /*
  * Success
@@ -3160,7 +3160,7 @@ select.uk-form-width-xsmall {
 .uk-placeholder {
   margin-bottom: 20px;
   padding: 30px 30px;
-  background: #913175;
+  background: #f0d8d8;
   border: 1px dashed #000000;
 }
 /* Add margin if adjacent element */
@@ -3188,7 +3188,7 @@ select.uk-form-width-xsmall {
   border-radius: 500px;
   vertical-align: middle;
   /* 1 */
-  background: #DD5B82;
+  background: #eba3a3;
   color: #050505 !important;
   font-size: 0.875rem;
   /* 2 */
@@ -3209,7 +3209,7 @@ select.uk-form-width-xsmall {
 .uk-label {
   display: inline-block;
   padding: 0 10px;
-  background: #DD5B82;
+  background: #eba3a3;
   line-height: 1.5;
   font-size: 0.875rem;
   color: #050505;
@@ -3267,7 +3267,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-overlay-primary {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(230, 159, 159, 0.8);
 }
 /* ========================================================================
    Component: Article
@@ -3381,7 +3381,7 @@ select.uk-form-width-xsmall {
  ========================================================================== */
 .uk-comment-primary {
   padding: 30px;
-  background-color: #913175;
+  background-color: #f0d8d8;
 }
 /* ========================================================================
    Component: Search
@@ -3511,12 +3511,12 @@ select.uk-form-width-xsmall {
   height: 40px;
   padding-left: 6px;
   padding-right: 6px;
-  background: #913175;
+  background: #f0d8d8;
   border: 1px solid #000000;
 }
 /* Focus */
 .uk-search-default .uk-search-input:focus {
-  background-color: #913175;
+  background-color: #f0d8d8;
 }
 /*
  * Icon
@@ -3702,7 +3702,7 @@ select.uk-form-width-xsmall {
   min-width: 200px;
   /* 4 */
   padding: 15px;
-  background: #913175;
+  background: #f0d8d8;
   color: #0c0c0c;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
 }
@@ -3898,13 +3898,13 @@ select.uk-form-width-xsmall {
 .uk-modal-header {
   display: flow-root;
   padding: 15px 30px;
-  background: #913175;
+  background: #f0d8d8;
   border-bottom: 1px solid #000000;
 }
 .uk-modal-footer {
   display: flow-root;
   padding: 15px 30px;
-  background: #913175;
+  background: #f0d8d8;
   border-top: 1px solid #000000;
 }
 /*
@@ -4457,7 +4457,7 @@ select.uk-form-width-xsmall {
 .uk-notification-message {
   position: relative;
   padding: 15px;
-  background: #913175;
+  background: #f0d8d8;
   color: #0c0c0c;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -4484,7 +4484,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-notification-message-primary {
-  color: #DD5B82;
+  color: #eba3a3;
 }
 /*
  * Success
@@ -5419,7 +5419,7 @@ ul.uk-nav-sub {
   width: 200px;
   /* 4 */
   padding: 15px;
-  background: #913175;
+  background: #f0d8d8;
   color: #0c0c0c;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
 }
@@ -5532,7 +5532,7 @@ ul.uk-nav-sub {
 /* Dropbar
  ========================================================================== */
 .uk-navbar-dropbar {
-  background: #913175;
+  background: #f0d8d8;
 }
 /*
  * Slide modifier
@@ -5684,17 +5684,17 @@ ul.uk-nav-sub {
 }
 /* Hover */
 .uk-subnav-pill > * > a:hover {
-  background-color: #913175;
+  background-color: #f0d8d8;
   color: #0c0c0c;
 }
 /* OnClick */
 .uk-subnav-pill > * > a:active {
-  background-color: #913175;
+  background-color: #f0d8d8;
   color: #0c0c0c;
 }
 /* Active */
 .uk-subnav-pill > .uk-active > a {
-  background-color: #DD5B82;
+  background-color: #eba3a3;
   color: #050505;
 }
 /* Disabled
@@ -5882,7 +5882,7 @@ ul.uk-nav-sub {
 /* Active */
 .uk-tab > .uk-active > a {
   color: #131212;
-  border-color: #DD5B82;
+  border-color: #eba3a3;
 }
 /* Disabled */
 .uk-tab > .uk-disabled > a {
@@ -7161,10 +7161,10 @@ ul.uk-nav-sub {
   color: #131212 !important;
 }
 .uk-text-primary {
-  color: #DD5B82 !important;
+  color: #eba3a3 !important;
 }
 .uk-text-secondary {
-  color: #000000 !important;
+  color: #e69f9f !important;
 }
 .uk-text-success {
   color: #32d296 !important;
@@ -7189,11 +7189,11 @@ ul.uk-nav-sub {
   /* 2 */
   display: inline-block;
   /* 3 */
-  color: #DD5B82 !important;
+  color: #eba3a3 !important;
 }
 @supports (-webkit-background-clip: text) {
   .uk-text-background {
-    background-color: #DD5B82;
+    background-color: #eba3a3;
     color: transparent !important;
   }
 }
@@ -7494,13 +7494,13 @@ iframe.uk-cover {
   background-color: #eee;
 }
 .uk-background-muted {
-  background-color: #913175;
+  background-color: #f0d8d8;
 }
 .uk-background-primary {
-  background-color: #DD5B82;
+  background-color: #eba3a3;
 }
 .uk-background-secondary {
-  background-color: #000000;
+  background-color: #e69f9f;
 }
 /* Size
  ========================================================================== */
@@ -9486,7 +9486,7 @@ iframe.uk-cover {
   color: #050505;
 }
 .uk-dark .uk-marker {
-  background: #913175;
+  background: #f0d8d8;
   color: #0c0c0c;
 }
 .uk-dark .uk-marker:hover {

@@ -17,7 +17,7 @@
         <nav class="uk-navbar-container" uk-sticky uk-navbar>
             <div class="uk-navbar-left">
                 <a class="uk-navbar-item" href="#">
-                    <span uk-navbar-item-icon></span> <span class="uk-margin-small-left">Menu</span>
+                    <a class="uk-navbar-item" uk-navbar-toggle-icon href="#"></a><span class="uk-margin-small-left">Menu</span>
                 </a>
                 <a class="uk-navbar-item uk-visible@m" href="#">
                     <span class="uk-margin-small-left">TR</span><span uk-icon="icon: chevron-down"></span>
@@ -34,7 +34,7 @@
             </div>
             <div class="uk-navbar-right">
                 <a class="uk-navbar-item uk-visible@m" href="#">
-                    <a class="uk-button uk-button-default  uk-visible@m" href="#">Projelerim</a>
+                    <a class="uk-button uk-button-default  uk-visible@m" href="#">REZERVASYON</a>
                 </a>
                 <a class="uk-navbar-item uk-visible@m" href="tel:+904446338">
                     <span uk-icon="icon: receiver"></span><span class="uk-margin-small-right">+90 444 63 38</span>
@@ -53,12 +53,11 @@
       </section>
     </header>
     <main>
-        <img src="./assets/images/top-image.png"class="uk-width-1-1">
-        
+        <img src="./assets/images/top-image.png"class="uk-width-1-1">      
         <!-- Title Section-->
         <section class="uk-section uk-padding-remove-horizontal uk-section-secondary" style="padding: 60px;">
             <div class="uk-container uk-padding-remove">
-                <div class="uk-width-2-3@m uk-margin-auto uk-text-center">
+                <div class="uk-width-2-3@m uk-margin-auto uk-text-center" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:300;">
                     <h4 class="uk-h4 uk-margin-remove uk-text-muted" style="padding-bottom: 8px;"><b>KIDS</b></h4>
                     <p class="uk-margin-remove">Çocuklara unutamayacakları bir tatil yaşatmak için her ayrıntı düşünülerek tasarlanan Zeynep Hotel Spiky Kids Club’ün eğitimli ekibi, onlara doyasıya eğlenmenin keyfini yaşatıyor.</p>
                 </div>
@@ -70,7 +69,7 @@
                 <div class="uk-width-5-6@m uk-margin-auto">
                     <div class="uk-grid-medium uk-flex-middle" uk-grid>
                         <div class="uk-width-3-5@m">
-                            <div class="uk-width-5-6@m">
+                            <div class="uk-width-5-6@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
                                 <div class="uk-flex uk-flex-center uk-margin-small-bottom">
                                     <img src="./assets/images/logo2.png" alt="top-image">
                                 </div>
@@ -80,7 +79,7 @@
                                 </div>
                             </div>
                         </div>
-                            <div class="uk-width-2-5@m">
+                            <div class="uk-width-2-5@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
                                  <img data-src="./assets/images/image.png" class="uk-width-1-1" uk-img>
                             </div>
                         </div>
@@ -89,17 +88,14 @@
                 </div>
             </div>
         </section>
-
     </section class= "uk-section ">
-    <section>
-       <div class="uk-flex uk-flex-center uk-section-secondary uk-section-small margin">
-        <h4><b>Çocuklar İçin Etkinliklerimiz</b></h4>
-    </div> 
-    </section>
         <!--Card Section-->
     <section class="uk-section uk-padding-remove-top uk-section-secondary">
        <div class="uk-container">
-        <div class="uk-child-width-1-3@s uk-grid-medium" uk-grid>
+            <div class="uk-flex uk-flex-center uk-section-secondary uk-section-small">
+        <h4><b>Çocuklar İçin Etkinliklerimiz</b></h4>
+            </div>
+        <div class="uk-child-width-1-3@s uk-grid-medium" uk-scrollspy="cls: uk-animation-fade; delay: 500; repeat: true" uk-grid>
                 
             <div>
                 <div>
@@ -142,7 +138,7 @@
      <section class="uk-section">
         <div class="uk-container">
             <div class="uk-text-center">
-                <div class="uk-grid-medium" uk-grid>
+                <div class="uk-grid-medium" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:500;"uk-grid>
                     <div class="uk-width-2-1">
                         <div class="uk-width-1-1@m">
                             <div class="uk-text-large uk-text-center uk-padding-remove-top" style= "padding: 30px;">
@@ -154,7 +150,7 @@
             </div>
         </div>
         <div class="uk-container">
-            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+            <div class="uk-position-relative uk-visible-toggle uk-light"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:300;" tabindex="-1" uk-slider>
 
                 <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
                     <li>
@@ -198,7 +194,7 @@
                     <div class="uk-text-center" style="padding-bottom: 50px;">
                     <h3><b>Slideshow</b></h3>
                     </div>
-                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:300;">
         
                         <div uk-slideshow="animation:pull; autoplay: true; autoplay-interval:2000;" class="uk-position-relative uk-visible-toggle">
                             <ul class="uk-slideshow-items">
@@ -228,10 +224,10 @@
     <section class="uk-section">
         <div class="uk-container">
             <div class="uk-padding-medium">
-                <div class="uk-text-center" style="padding: 10px;">
+                <div class="uk-text-center"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" style="padding: 10px;">
                     <h3><b>Accordion</b></h3>
                 </div>
-                     <ul uk-accordion>
+                     <ul uk-accordion  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;">
                     <li class="uk-open">
                         <a class="uk-accordion-title" href="#">Başlık 1</a>
                         <div class="uk-accordion-content">
@@ -262,10 +258,10 @@
     <!--Switcher And Tab-->
     <section class="uk-section uk-section-secondary">
         <div class="uk-container">
-            <div class="uk-text-center" style="padding: 10px;">
+            <div class="uk-text-center"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" style="padding: 10px;">
                 <h3><b>Switcher And Tab</b></h3>
             </div>
-            <ul uk-tab>
+            <ul uk-tab  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:300;">
                 <li><a href="#">Başlık 1</a></li>
                 <li><a href="#">Başlık 2</a></li>
                 <li><a href="#">Başlık3</a></li>
@@ -282,7 +278,7 @@
     <section class="uk-section uk-overflow-auto">
         
             <div class="uk-position-relative uk-visible-toggle uk-light" uk-slider>
-                <div class="uk-position-relative uk-visible-toggle uk-overflow-hidden" tabindex="-1" uk-slider="autoplay:true; autoplay-interval:3000; center:true;">
+                <div class="uk-position-relative uk-visible-toggle uk-overflow-hidden"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:300;" tabindex="-1" uk-slider="autoplay:true; autoplay-interval:3000; center:true;">
                     
                         <div class="uk-container">
                             <div class="uk-text-center" style="padding-bottom: 20px;">
@@ -360,11 +356,11 @@
     </section>
     <!-- Offcanvas Section-->
     <section class="uk-section uk-section-secondary">
-        <div class="uk-text-center" style="padding: 20px;">
+        <div class="uk-text-center" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" style="padding: 20px;">
                 <h3><b>Offcanvas</b></h3>
             </div>
         <div class="uk-container uk-margin-auto uk-text-center">
-        <div class="uk-grid-medium" uk-grid>
+        <div class="uk-grid-medium" uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" uk-grid>
             
            <div class="uk-width-1-1@m">
             <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
@@ -395,10 +391,10 @@
     </section>
     <!-- Lightbox Section-->
     <section class="uk-section">
-        <div class="uk-text-center" style="padding: 20px;">
+        <div class="uk-text-center"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;" style="padding: 20px;">
             <h3><b>Lightbox</b></h3>
         </div>
-        <div class="uk-container uk-margin-auto uk-text-center">
+        <div class="uk-container uk-margin-auto uk-text-center"   uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;">
             <div uk-lightbox>
                 <a class="uk-button uk-button-default" href="assets/images/sld2.jpg" data-caption="Caption">Open Lightbox</a>
             </div>
@@ -407,10 +403,10 @@
     </section>
     <!-- Modal Section-->
     <section class="uk-section uk-section-secondary">
-        <div class="uk-text-center" style="padding-bottom: 20px;">
+        <div class="uk-text-center" style="padding-bottom: 20px;"  uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;">
             <h3><b>Modal</b></h3>
         </div>
-        <div class="uk-container uk-margin-auto uk-text-center">
+        <div class="uk-container uk-margin-auto uk-text-center"   uk-scrollspy="cls: uk-animation-fade; repeat: true; delay:400;">
             <p uk-margin>
                 <a class="uk-button uk-button-default" href="#modal-group-1" uk-toggle>Open The Story</a>
             </p>
