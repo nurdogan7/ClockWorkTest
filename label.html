@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label</title>
+    <link rel="stylesheet" href="assets/uikit/dist/css/uikit.custom-theme.min.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h1 class="uk-text-center">FORM BİLGİLERİNİZ</h1>
+        <hr>
+        <section class="uk section uk-section-small">
+           <div class="uk-container">
+               <div class="uk-grid-small uk-child-width-1-1" uk-grid>
+                <h2 class="uk-padding uk-padding-remove-top uk-text-center">HESAP BİLGİLERİNİZ</h2>
+                <form>    
+                 <table class="uk-flex uk-flex-center">
+                     <tr>
+                      <td>  
+                          <label for="username">Kullanıcı Adınız:</label>                         
+                     </td>
+                     <td style="width: 50px"></td>
+                     <td class="uk-inline">
+                         <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: user"></span>
+                         <input type="text" id="username">
+                     </td>
+                     </tr>
+                     <tr>
+                      <td class="">
+                          <label for="parola">Parolanız:</label>                         
+                     </td>
+                     <td style="width: 50px"></td>
+                     <td class="uk-inline">
+                         <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                         <input type="password" id="parola">
+                     </td>
+                     </tr>
+                     <tr>
+                      <td>
+                          <label for="eposta">E-mail Adresiniz:</label>                        
+                      </td>
+                      <td style="width: 50px"></td>
+                      <td class="uk-inline">
+                         <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: mail"></span>
+                          <input type="email" id="eposta">
+                      </td>
+                      </tr>
+      
+                 </table>
+                </form>
+                <section class="uk section">
+                    <hr>
+                </section>
+                <h2 class="uk-padding uk-text-center">KİŞİSEL BİLGİLERİNİZ</h2>
+                
+                <table class="uk-flex uk-flex-center">
+                    <tr>
+                        <td>
+                             <label for="name">Adınız:</label>                         
+                        </td>
+                        <td style="width: 50px"></td>
+                        <td>
+                            <input type="text" id="name">
+                        </td>
+                       
+                    </tr>
+     
+                    <tr>
+                        <td>
+                             <label for="surname">Soyadınız:</label>                         
+                        </td>
+                        <td style="width: 50px"></td>
+                        <td>
+                            <input type="text" id="surname">
+                        </td>
+                    </tr>
+                   
+                     <tr>
+                         <td>
+                             <label for="bhirtday-date">Doğum Tarihiniz:</label>                        
+                         </td>
+                         <td style="width: 50px"></td>
+                         <td>
+                             <input type="datetime" id="bhirtday-date">
+                         </td>
+                         </tr>
+                    <tr>
+                     <tr>
+                         <td>
+                             <label for="cities">Şehir Seçiniz</label>                        
+                         </td>
+                         <td style="width: 50px"></td>
+                         <td>
+                             <select id="cities">
+                                 <option value="06">Ankara</option>
+                                 <option value="07">Antalya</option>
+                                 <option value="34">İstanbul</option>
+                                 <option value="35">İzmir</option>
+                             </select>
+                         </td>
+                         </tr>
+                    <tr>
+                     <td>
+                         <p>Cinsiyetiniz:</p>
+                    </td>
+                    <td style="width: 50px"></td>
+                    <td>
+                         <label for="female">Kadın</label>  
+                         <input type="radio" id="female" name="gender">
+     
+                         <label for="male">Erkek</label>
+                         <input type="radio" id="male" name="gender">
+                    </td>
+                   </tr>
+                   <tr>
+                     <td>
+                         <label for="intro">Kendinizi Anlatınız</label>                        
+                     </td>
+                     <td style="width: 50px"></td>
+                     <td class="uk-inline">
+                         <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: pencil"></span>
+                         <textarea id="intro"></textarea>
+                     </td>
+                     </tr>
+                <tr>
+                </table>
+     
+               </div>
+
+           </div>
+            
+        </section>
+    </main>
+    <footer></footer>
+    <script src="assets/uikit/dist/js/uikit.min.js"></script>
+    <script src="assets/uikit/dist/js/uikit-icons.min.js"></script>
+</body>
+</html>
